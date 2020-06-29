@@ -1,4 +1,6 @@
 # ClockifyAPI
+Made by Evan Zhang on 6/28/2020
+
 This code should be a starting point for taking data from Clockify's API and putting it into an excel sheet to hold yourself accountable. Can also be scaled up for companies that use Clockify to manage multiple employees. In the sample code, there's an added functionality where the report will get sent to a discord server using Discord's Webhook system. If you are on windows, you can automate the system entirely by going to your system's Task Scheduler, and then scheduling this script to run every time at the end of your work day.
 
 Motivation: I realized there's a lot I could do with all the free time I had during quarantine; however, I felt that without a system to hold myself accountable, I would not follow my daily plans and instead deviate into the wrong direction. Hence, I made this python script which connects to Clockify's API (what I'm using to keep track of the daily tasks I'm doing) and then sends an accountability report to me via Discord. 
